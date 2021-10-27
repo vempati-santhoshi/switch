@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  printf("enter a number either 0 or 1\n");
+  int n;
+  scanf("%d",&n);
+  switch(n)
+  {
+    case 1: printf("hi");
+      break;
+    case 2: printf("how are u");
+    break;
+    default:printf("enter cotrect option");
+  }
+  return 0;
+}
